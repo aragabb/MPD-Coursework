@@ -1,0 +1,5 @@
+<resources>
+    <!--Ahmed Ragab Badawy- S1804193-->
+
+    <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">AIzaSyAOvsi7NqhVuZmzi4pGtAuqyMOGi6kKjeE</string>
+</resources>

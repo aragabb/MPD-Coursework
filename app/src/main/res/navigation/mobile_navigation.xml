@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Ahmed Ragab Badawy- S1804193-->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_timeline">
+
+    <fragment
+        android:id="@+id/navigation_timeline"
+        android:name="com.example.infoquakes.ui.timeline.TimelineFragment"
+        android:label="S1804193"
+        tools:layout="@layout/fragment_timeline" />
+
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="com.example.infoquakes.ui.map.MapFragment"
+        android:label="S1804193"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/navigation_filter"
+        android:name="com.example.infoquakes.ui.filter.FilterFragment"
+        android:label="S1804193"
+        tools:layout="@layout/fragment_filter"/>
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.infoquakes.ui.settings.SettingsFragment"
+        android:label="S1804193"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
